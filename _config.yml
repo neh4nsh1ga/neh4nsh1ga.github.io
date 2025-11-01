@@ -1,16 +1,36 @@
 # Example Site settings
 
-#header_pages:
-#  - index.md
-#  - about.md
+description: "A single computer authority."
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+header_pages:
+  - index.md
+  - about.md
+  - post.md
+
+lang: ko
+timezone: Asia/Seoul
+
+footer: 'Find me on <a href="https://discord.com/users/480930947642949653">Discord</a>'
 
 plugins:
   - jekyll-seo-tag
 
-# Theme options
-# style: dark # dark (default) or light or hacker
+
+
+csp:
+  directives:
+    style-src:
+      - "'self'"
+      - "https://fonts.googleapis.com"
+      - "https://cdn.jsdelivr.net"
+
+    font-src:
+      - "'self'"
+      - "https://fonts.gstatic.com"     
+      - "https://cdn.jsdelivr.net"     
+      - "https://fonts.cdnfonts.com"
+      
+      # style: dark # dark (default) or light or hacker
 # listen_for_clients_preferred_style: true # true or false (default)
 
 # Fonts

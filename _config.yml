@@ -4,8 +4,9 @@ description: "A single computer authority."
 
 header_pages:
   - index.md
-  - about.md
-  - post.md
+  - pages/about.md
+  - pages/post.md
+  - pages/blog.md
 
 lang: ko
 timezone: Asia/Seoul
@@ -23,6 +24,7 @@ csp:
       - "'self'"
       - "https://fonts.googleapis.com"
       - "https://cdn.jsdelivr.net"
+      - "'unsafe-inline'"
 
     font-src:
       - "'self'"

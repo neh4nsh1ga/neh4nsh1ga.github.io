@@ -1,14 +1,12 @@
 ---
-title: /
+title: /main
 layout: home
 permalink: /
 ---
+<p align="center">
+<img src="/assets/images/icon.png" width="15%" height="15%"/>
+</p>
 
-# Other Demo Pages
-
-[Light](https://b2a3e8.github.io/jekyll-theme-console-demo-light/)
-[Hacker](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/)
-
-# Welcome
-
-Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+# /main
+dear diary
+still under construction

@@ -1,14 +1,15 @@
 @charset "utf-8";
+@import "jetbrains";
 
 /**
  * Style variables
  */
-$base-font-family:     'D2Coding', monospace !default;
+$base-font-family:     'JetBrains Mono Hangul', monospace !default;
 $base-font-size:       16px !default;
 $mobile-font-size:     16px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
-$container-max-width:  800px !default;
+$container-max-width:  750px !default;
 
 /**
  * Global
@@ -46,10 +47,10 @@ footer { margin-bottom: 20px; }
 /**
  * Header/Navigation
  */
-.menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
+.menu { border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px; }
-.menu ul li a { text-decoration: none;  color: var(--text-color); }
+.menu ul li a { text-decoration: none;  color: var(--menu-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
 
 /**
@@ -130,3 +131,45 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+
+
+h1, h2 {
+    color: #FF79C6;
+  }
+  h3, h4 {
+    color: #8BE9FD;
+  }
+  h5, h6 {
+    color: #FFB86C;
+  }
+
+  blockquote {
+    color: #6272A4; /* Comment */
+    border-left: 4px solid #6272A4;
+    padding-left: 1em;
+    margin-left: 0;
+    font-style: italic;
+  }
+  
+
+  p code,
+  li code {
+    background-color: #44475A;
+    color: #8BE9FD;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  
+
+  strong, b {
+    color: #FFB86C;
+  }
+  
+
+  hr {
+    border: 0;
+    border-top: 1px dashed #6272A4;
+    margin: 2em 0;
+  }

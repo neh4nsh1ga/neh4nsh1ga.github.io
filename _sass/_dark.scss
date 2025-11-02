@@ -4,31 +4,32 @@
 
 @mixin theme() {
   :root {
-    --base-color: #DBDBDB;
+    --base-color: #F8F8F2;
     --border: dashed 1px rgba(219, 219, 219, 0.9);
     --selection-background: rgba(219, 219, 219, 0.99);
-    --selection-text: #000;
-    --background-color: #000;
+    --selection-text: #44475aab;
+    --background-color: #1c1e2b;
     --text-color: var(--base-color);
+    --menu-color: var(--code-color-14);
     --placeholder-color: var(--base-color);
     --link-color: var(--base-color);
-    --code-color-1: #aaaaaa;
-    --code-color-2: #ffffcc;
-    --code-color-3: #F00000;
-    --code-color-4: #F0A0A0;
-    --code-color-5: #b38aff;
-    --code-color-6: #5ba711;
-    --code-color-7: #e4e477;
-    --code-color-8: #000080;
-    --code-color-9: #05ca05;
-    --code-color-10: #888888;
-    --code-color-11: #555555;
-    --code-color-12: #800080;
-    --code-color-13: #00d4d4;
-    --code-color-14: #00c1c1;
-    --code-color-15: #ed9d13;
-    --code-color-16: #1e90ff;
-    --code-color-17: #800000;
-    --code-color-18: #bbbbbb;
+--code-color-1: #6272A4;
+    --code-color-2: #44475A;
+    --code-color-3: #FF5555;
+    --code-color-4: #44475A;
+    --code-color-5: #BD93F9;
+    --code-color-6: #FF79C6;
+    --code-color-7: #F8F8F2;
+    --code-color-8: #F8F8F2;
+    --code-color-9: #F1FA8C;
+    --code-color-10: #F8F8F2;
+    --code-color-11: #44475A;
+    --code-color-12: #BD93F9;
+    --code-color-13: #8BE9FD;
+    --code-color-14: #FFB86C;
+    --code-color-15: #50FA7B;
+    --code-color-16: #FF79C6;
+    --code-color-17: #FF79C6;
+    --code-color-18: #F8F8F2;
   }
 }

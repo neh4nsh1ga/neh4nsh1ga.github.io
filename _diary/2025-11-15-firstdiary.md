@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "blog test"
-subtitle: "테스트 되는지 안되는지 부제목"
+title:  "글 테스트"
+subtitle: "두번째 글"
 categories:
-permalink: "post/t3st"
+permalink: "post/text"
 ---
 
-# 제목
-#### 제목2
-안녕하시긔
+르르소를 석방하라

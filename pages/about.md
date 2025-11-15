@@ -1,7 +1,7 @@
 ---
-title: /whoami
+title: /aboutme
 layout: default
-permalink: /whoami
+permalink: /aboutme
 ---
 <p align="center">
 <img src="/assets/images/com.png" width="50%" height="50%"/>

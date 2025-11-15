@@ -8,5 +8,4 @@ permalink: /post
 </p>
 
 # /posts
-dear diary
-still under construction
+# Welcome. I’m still piecing myself together.

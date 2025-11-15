@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 <p align="center">
-<img src="/assets/images/icon.png" width="15%" height="15%"/>
+<img src="/assets/images/artt.png" width="45%" height="45%"/>
 </p>
 
 # /main

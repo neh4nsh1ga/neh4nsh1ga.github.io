@@ -31,6 +31,22 @@ header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
 
+.diary-item {
+  /* 하단에 얇은 회색 실선 추가 */
+  border-bottom: var(--border);
+  /* 구분선 아래쪽에 여백 추가 */
+  margin-bottom: 1.6%; 
+  /* 구분선 위쪽에 여백 추가 */
+  padding-bottom: -0.2%; 
+}
+
+/* 마지막 항목에는 구분선이 필요 없을 수 있으므로 제거 */
+.diary-list .diary-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0; 
+  padding-bottom: 0;
+}
+
 /**
  * Highlight/Markup
  */
@@ -173,3 +189,40 @@ h1, h2 {
     border-top: 1px dashed #6272A4;
     margin: 2em 0;
   }
+
+  .post-nav {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+  }
+  
+  .post-nav div {
+    text-align: inherit !important;
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+  
+  .post-nav div:last-child {
+    text-align: right !important;
+    margin-left: 1em !important;
+  }
+  
+  .post-nav div:first-child {
+    text-align: left !important;
+    margin-right: 1em !important;
+  }
+  
+.post-nav a,
+.post-nav a:visited,
+.post-nav a:hover,
+.post-nav a:active {
+  text-decoration: none !important;
+  border: none !important;
+  border-bottom: 0 !important;
+  outline: none !important;
+  display: inline-block !important;
+  width: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}

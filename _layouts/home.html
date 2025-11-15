@@ -14,7 +14,7 @@ layout: default
       <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       {% if post.subtitle %}
         <br />
-        <small><em><p style='line-height:2em'>  -{{ post.subtitle | escape }}</p></em></small>
+        <small><em><p style='line-height:2em'>  -  {{ post.subtitle | escape }}</p></em></small>
       {% endif %}
     </li>
     {%- endfor -%}

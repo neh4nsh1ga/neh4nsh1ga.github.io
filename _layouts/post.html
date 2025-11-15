@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+<time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+  posted {{ page.date | date: "%Y-%m-%d" }}
+</time>
+  {% if page.subtitle %}
+  <p class="post-subtitle" style="margin-top: 1em; margin-bottom: 1em;"><i>{{ page.subtitle }}</i></p>
+  {% endif %}
+</article>
 
 {{ content }}
 

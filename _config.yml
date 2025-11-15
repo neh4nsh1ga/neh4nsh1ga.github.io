@@ -2,6 +2,9 @@
 
 description: "A single computer authority."
 
+url: "https://f5boy.site"   # 너의 커스텀 도메인
+baseurl: ""
+
 header_pages:
   - index.md
   - pages/pages.md
@@ -13,7 +16,7 @@ header_pages:
 lang: ko
 timezone: Asia/Seoul
 
-footer: 'Find me on <a href="https://discord.com/users/480930947642949653">Discord</a>'
+footer: 'Find me on <a href="https://x.com/F5d4ddy">X</a>'
 
 plugins:
   - jekyll-seo-tag

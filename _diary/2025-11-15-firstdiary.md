@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "blog te3st"
-subtitle: "APL 소213글, 첫 글"
+title:  "blog test"
+subtitle: "테스트 되는지 안되는지 부제목"
 categories:
+permalink: "post/t3st"
 ---
 
-# 1. APL이 뭔데 
-asd
+# 제목
+#### 제목2
+안녕하시긔

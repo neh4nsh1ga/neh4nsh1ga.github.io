@@ -3,9 +3,6 @@ title: /aboutme
 layout: default
 permalink: /aboutme
 ---
-<p align="center">
-<img src="/assets/images/com.png" width="50%" height="50%"/>
-</p>
 
 # 수 없이 깊은 네트워크를 타고 온 이들에게
 

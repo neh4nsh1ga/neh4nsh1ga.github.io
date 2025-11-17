@@ -4,6 +4,10 @@ layout: default
 permalink: /aboutme
 ---
 
+<p align="center">
+<img src="/assets/images/com.png" width="45%" height="45%"/>
+</p>
+
 # 수 없이 깊은 네트워크를 타고 온 이들에게
 
 저는 컴퓨터를 사랑하는 사람입니다.
